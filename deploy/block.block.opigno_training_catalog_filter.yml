@@ -1,0 +1,31 @@
+uuid: 558e7a9b-1e32-4c0b-a52f-16b2b0bd39a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.opigno_training_catalog
+  module:
+    - system
+    - views
+  theme:
+    - platon
+_core:
+  default_config_hash: a557e3dEHciolyVgvY1wwHm9kghKKJBhw5JjgA9GGm8
+id: opigno_training_catalog_filter
+theme: platon
+region: sidebar_first
+weight: -1
+provider: null
+plugin: 'views_exposed_filter_block:opigno_training_catalog-training_catalogue'
+settings:
+  id: 'views_exposed_filter_block:opigno_training_catalog-training_catalogue'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /catalogue
+    negate: false
+    context_mapping: {  }
