@@ -1,0 +1,42 @@
+uuid: c0d20814-b8a8-4ae9-b330-8111f447c9f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - opigno_certificate
+    - user
+_core:
+  default_config_hash: u46ixf0B-gWwGc2rh18fWPVnE3BM40f6x_lrHjkU-WE
+id: opigno_certificate.template.default
+targetEntityType: opigno_certificate
+bundle: template
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  label:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  uid:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true
+  status: true

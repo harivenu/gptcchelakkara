@@ -1,0 +1,12 @@
+uuid: c9ac3bf7-10dc-4be8-905d-4bf837a74766
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+_core:
+  default_config_hash: OfvM_ng6GWW6SU-ax3Xko7tzgPYqt02nQAtLsYeqiC4
+id: pm_thread_access_time.token
+label: Token
+targetEntityType: pm_thread_access_time
+cache: true
