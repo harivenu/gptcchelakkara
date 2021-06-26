@@ -1,0 +1,25 @@
+uuid: 81793973-85f5-4eaa-a43b-7e41ca99e537
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - platon
+id: dashboard_page_title_block
+theme: platon
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Dashboard: Page title'
+  provider: core
+  label_display: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

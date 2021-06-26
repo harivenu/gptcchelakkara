@@ -1,4 +1,6 @@
 module:
+  admin_toolbar: 0
+  admin_toolbar_tools: 0
   better_exposed_filters: 0
   block: 0
   block_content: 0
@@ -97,10 +99,12 @@ module:
   pdf: 0
   popup_field_group: 0
   private_message: 0
+  profile: 0
   queue_ui: 0
   quickedit: 0
   rdf: 0
   role_delegation: 0
+  role_login_page: 0
   search: 0
   search_api: 0
   search_api_db: 0
