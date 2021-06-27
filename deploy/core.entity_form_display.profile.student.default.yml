@@ -1,0 +1,22 @@
+uuid: f1d79a1d-3a0d-4117-ba28-a41968f4a54c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.student.field_first_name
+    - profile.type.student
+id: profile.student.default
+targetEntityType: profile
+bundle: student
+mode: default
+content:
+  field_first_name:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  is_default: true

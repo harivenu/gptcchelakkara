@@ -1,0 +1,26 @@
+uuid: 54035ba9-9fce-4154-b203-d467d8a26733
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.student.field_first_name
+    - profile.type.student
+id: profile.student.default
+targetEntityType: profile
+bundle: student
+mode: default
+content:
+  field_first_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  private_message_link: true
+  search_api_excerpt: true
