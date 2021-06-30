@@ -1,37 +1,42 @@
-uuid: 54035ba9-9fce-4154-b203-d467d8a26733
+uuid: b1c89199-6d76-43cd-8706-135c7b3de68d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.profile.student.field_branch
-    - field.field.profile.student.field_date_of_birth
-    - field.field.profile.student.field_first_name
-    - field.field.profile.student.field_last_name
-    - field.field.profile.student.field_register_number
-    - profile.type.student
-  module:
-    - datetime
-id: profile.student.default
+    - field.field.profile.staff.field_branch
+    - field.field.profile.staff.field_contact
+    - field.field.profile.staff.field_email
+    - field.field.profile.staff.field_first_name
+    - field.field.profile.staff.field_last_name
+    - profile.type.staff
+id: profile.staff.default
 targetEntityType: profile
-bundle: student
+bundle: staff
 mode: default
 content:
   field_branch:
-    weight: 4
+    weight: 2
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  field_date_of_birth:
-    weight: 3
+  field_contact:
+    weight: 4
     label: above
     settings:
-      format_type: medium
-      timezone_override: ''
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
-    type: datetime_default
+    type: number_integer
+    region: content
+  field_email:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
     region: content
   field_first_name:
     weight: 0
@@ -48,15 +53,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_register_number:
-    weight: 2
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
     region: content
 hidden:
   entity_print_view_epub: true

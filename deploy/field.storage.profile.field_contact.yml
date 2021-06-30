@@ -1,0 +1,20 @@
+uuid: 36cae363-0510-4692-8823-776d6ff0dbba
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.field_contact
+field_name: field_contact
+entity_type: profile
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

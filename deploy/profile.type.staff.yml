@@ -1,0 +1,13 @@
+uuid: d334d896-9e62-4cf8-bea2-e03d4325966f
+langcode: en
+status: true
+dependencies: {  }
+id: staff
+label: Staff
+display_label: ''
+multiple: false
+registration: false
+roles:
+  staff: staff
+allow_revisions: false
+new_revision: false

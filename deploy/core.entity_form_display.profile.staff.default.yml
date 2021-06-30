@@ -1,34 +1,41 @@
-uuid: f1d79a1d-3a0d-4117-ba28-a41968f4a54c
+uuid: 10f33273-1efc-48a8-baa2-b3fca3de045f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.profile.student.field_branch
-    - field.field.profile.student.field_date_of_birth
-    - field.field.profile.student.field_first_name
-    - field.field.profile.student.field_last_name
-    - field.field.profile.student.field_register_number
-    - profile.type.student
-  module:
-    - datetime
-id: profile.student.default
+    - field.field.profile.staff.field_branch
+    - field.field.profile.staff.field_contact
+    - field.field.profile.staff.field_email
+    - field.field.profile.staff.field_first_name
+    - field.field.profile.staff.field_last_name
+    - profile.type.staff
+id: profile.staff.default
 targetEntityType: profile
-bundle: student
+bundle: staff
 mode: default
 content:
   field_branch:
-    weight: 30
+    weight: 28
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_date_of_birth:
-    weight: 29
-    settings: {  }
+  field_contact:
+    weight: 30
+    settings:
+      placeholder: ''
     third_party_settings: {  }
-    type: datetime_default
+    type: number
+    region: content
+  field_email:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
     region: content
   field_first_name:
     weight: 26
@@ -45,13 +52,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
-  field_register_number:
-    weight: 28
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-    type: number
     region: content
 hidden:
   is_default: true
