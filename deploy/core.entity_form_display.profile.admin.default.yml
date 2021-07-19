@@ -1,0 +1,30 @@
+uuid: d87604ab-fe96-4373-b9fb-640f406708ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.admin.field_contact
+    - field.field.profile.admin.field_email
+    - profile.type.admin
+id: profile.admin.default
+targetEntityType: profile
+bundle: admin
+mode: default
+content:
+  field_contact:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_email:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+hidden:
+  is_default: true

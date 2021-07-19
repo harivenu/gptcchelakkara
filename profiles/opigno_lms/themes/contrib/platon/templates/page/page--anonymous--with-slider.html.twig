@@ -78,6 +78,20 @@
         <div class="subtitle">{{ 'Login with your'|t }}<br>{{ 'username or email'|t }}</div>
       {% endif %}
       {{ login_form }}
+      <div>
+      <p style="text-align:center">
+        <a href="/user/student">STUDENT LOGIN</a>
+      </p>
+      <p style="text-align:center">
+        <a href="/user/parent">PARENT LOGIN</a>
+      </p>
+      <p style="text-align:center">
+        <a href="/user/staff">STAFF LOGIN</a>
+      </p>
+      <p style="text-align:center">
+        <a href="/user/admin">ADMIN LOGIN</a>
+		  </p>
+      </div>
       <div class="status_messages">
         {{ page.status_messages }}
       </div>
@@ -98,6 +112,7 @@
       <div class="status_messages">
         {{ page.status_messages }}
       </div>
+      
       <div class="switch-link text-center mt-auto pt-4">
         <div><a href="{{ path('user.login') }}">{{ 'Login'|t }}</a></div>
         {% if register != 'admin_only' %}

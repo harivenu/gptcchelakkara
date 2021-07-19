@@ -1,0 +1,19 @@
+uuid: 4511fd09-227d-47e7-997f-61a0d364908e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_email
+    - profile.type.admin
+id: profile.admin.field_email
+field_name: field_email
+entity_type: profile
+bundle: admin
+label: Email
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
