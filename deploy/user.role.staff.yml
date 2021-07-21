@@ -1,9 +1,0 @@
-uuid: 6d89e0e6-8b71-43c4-836e-b6aa1de9aba5
-langcode: en
-status: true
-dependencies: {  }
-id: staff
-label: Staff
-weight: 4
-is_admin: null
-permissions: {  }
