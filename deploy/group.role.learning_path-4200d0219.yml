@@ -1,0 +1,17 @@
+uuid: debeafa2-fc2b-496b-85af-70ba27e2007a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+  enforced:
+    config:
+      - user.role.admin
+id: learning_path-4200d0219
+label: Admin
+weight: 6
+internal: true
+audience: outsider
+group_type: learning_path
+permissions_ui: false
+permissions: {  }

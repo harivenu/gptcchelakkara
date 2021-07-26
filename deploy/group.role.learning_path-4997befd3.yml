@@ -1,0 +1,17 @@
+uuid: 762efb56-8bf5-4be7-97db-714a9e64aa81
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+  enforced:
+    config:
+      - user.role.student
+id: learning_path-4997befd3
+label: Student
+weight: 3
+internal: true
+audience: outsider
+group_type: learning_path
+permissions_ui: false
+permissions: {  }

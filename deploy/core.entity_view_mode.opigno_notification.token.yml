@@ -1,0 +1,12 @@
+uuid: 1e3c122d-615b-491f-8d6b-0e13a0704d04
+langcode: en
+status: true
+dependencies:
+  module:
+    - opigno_notification
+_core:
+  default_config_hash: BFa_iKBn2QRGP7cIFaHjXA7xiktb9Z4bq9Dg5UtPb2I
+id: opigno_notification.token
+label: Token
+targetEntityType: opigno_notification
+cache: true

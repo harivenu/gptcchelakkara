@@ -1,0 +1,23 @@
+uuid: 574c894d-956c-44b5-a60c-07e35d8128aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_contact
+    - profile.type.admin
+id: profile.admin.field_contact
+field_name: field_contact
+entity_type: profile
+bundle: admin
+label: 'Contact Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

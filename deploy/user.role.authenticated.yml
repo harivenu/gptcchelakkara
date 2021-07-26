@@ -1,0 +1,56 @@
+uuid: 8540b5de-1b00-4667-92dc-7625dd959377
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access editor'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'add members to calendar event'
+  - 'create forum content'
+  - 'create opigno_calendar_event'
+  - 'delete own forum content'
+  - 'delete own opigno calendar event'
+  - 'dropzone upload files'
+  - 'edit own forum content'
+  - 'manage own commerce_payment_method'
+  - 'post comments'
+  - 'restful get achievements_resource'
+  - 'restful get opigno_calendar_events_resource'
+  - 'restful get opigno_notification_resource'
+  - 'restful get private_message_last_for_threads_resource'
+  - 'restful get private_message_resource'
+  - 'restful get private_message_threads_resource'
+  - 'restful get private_messages_resource'
+  - 'restful get trainings_catalogue_resource'
+  - 'restful patch opigno_notification_resource'
+  - 'restful patch private_message_thread_update_resource'
+  - 'restful post color_rest_resource'
+  - 'restful post token_rest_resource'
+  - 'search content'
+  - 'skip comment approval'
+  - 'take modules'
+  - 'update own opigno calendar event'
+  - 'use private messaging system'
+  - 'use text format basic_html'
+  - userprotect.account.edit
+  - userprotect.mail.edit
+  - userprotect.pass.edit
+  - 'view commerce_product'
+  - 'view ilt entities'
+  - 'view media'
+  - 'view meeting entities'
+  - 'view own commerce_order'
+  - 'view own module results'
+  - 'view own opigno calendar event'
+  - 'view published module entities'

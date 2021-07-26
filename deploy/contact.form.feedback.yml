@@ -1,0 +1,14 @@
+uuid: 3d2f9966-e9c8-4fdd-a935-05e3020b4b55
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ol99nNnxPKafF7cnnntFf4TJyyvH1DCuFPYR0tLQZx8
+id: feedback
+label: 'Website feedback'
+recipients:
+  - japaricio@connect-i.ch
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

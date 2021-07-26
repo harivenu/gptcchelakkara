@@ -1,0 +1,17 @@
+uuid: 3c0f3e4d-785f-46e6-9fb6-a6d483c0baa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.opigno_course
+  enforced:
+    config:
+      - user.role.parent
+id: opigno_course-1d1e2f892
+label: Parent
+weight: 5
+internal: true
+audience: outsider
+group_type: opigno_course
+permissions_ui: false
+permissions: {  }

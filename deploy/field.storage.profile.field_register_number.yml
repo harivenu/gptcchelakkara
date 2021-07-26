@@ -1,0 +1,20 @@
+uuid: ae9fab5a-bde6-4f40-8f39-7a70aa495f2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.field_register_number
+field_name: field_register_number
+entity_type: profile
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

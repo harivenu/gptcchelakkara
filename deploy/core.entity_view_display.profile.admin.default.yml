@@ -1,0 +1,35 @@
+uuid: 89adbe06-7097-4857-900d-146e175ce023
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.admin.field_contact
+    - field.field.profile.admin.field_email
+    - profile.type.admin
+id: profile.admin.default
+targetEntityType: profile
+bundle: admin
+mode: default
+content:
+  field_contact:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_email:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  private_message_link: true
+  search_api_excerpt: true
