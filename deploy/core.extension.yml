@@ -52,6 +52,7 @@ module:
   message: 0
   message_notify: 0
   mimemail: 0
+  multiple_registration: 0
   multiselect: 0
   node: 0
   opigno_alter_entity_autocomplete: 0
@@ -103,6 +104,7 @@ module:
   queue_ui: 0
   quickedit: 0
   rdf: 0
+  registration_role: 0
   role_delegation: 0
   role_login_page: 0
   search: 0

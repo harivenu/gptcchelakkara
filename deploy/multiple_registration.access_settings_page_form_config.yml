@@ -1,0 +1,12 @@
+multiple_registration_pages_white_list:
+  administrator: administrator
+  student: student
+  admin: admin
+  anonymous: 0
+  authenticated: 0
+  collaborative_features: 0
+  statistics_reader: 0
+  user_manager: 0
+  content_manager: 0
+  staff: 0
+  parent: 0

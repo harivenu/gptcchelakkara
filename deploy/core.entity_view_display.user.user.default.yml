@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.user.user.field_created_by
+    - field.field.user.user.field_first_name
     - field.field.user.user.user_picture
     - image.style.medium
   module:
@@ -16,6 +17,14 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_first_name:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   member_for:
     weight: 1
     region: content
@@ -31,12 +40,16 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  admin_profiles: true
   commerce_remote_id: true
   entity_print_view_epub: true
   entity_print_view_pdf: true
   entity_print_view_word_docx: true
   field_created_by: true
   linked_username: true
+  parent_profiles: true
   private_message_link: true
   profile_customer: true
   search_api_excerpt: true
+  staff_profiles: true
+  student_profiles: true

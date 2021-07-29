@@ -1,0 +1,13 @@
+role_to_select:
+  student: student
+  collaborative_features: '0'
+  statistics_reader: '0'
+  user_manager: '0'
+  content_manager: '0'
+  administrator: '0'
+  staff: '0'
+  parent: '0'
+  admin: '0'
+registration_mode: admin
+_core:
+  default_config_hash: o1wWkhSOJotsHFgvzESaUOiTWhLak62cKBDyEtewAIM
