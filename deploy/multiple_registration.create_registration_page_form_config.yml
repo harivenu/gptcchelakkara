@@ -1,5 +1,0 @@
-multiple_registration_path_student: user/student/register
-multiple_registration_url_student: /user/register/student
-multiple_registration_hidden_student: 0
-multiple_registration_form_mode_register_student: register
-multiple_registration_form_mode_edit_student: default

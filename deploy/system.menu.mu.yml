@@ -1,8 +1,0 @@
-uuid: cfd6f9e2-198d-4bce-aae6-88ced89d2e3d
-langcode: en
-status: true
-dependencies: {  }
-id: mu
-label: 'Multiple Login Menu'
-description: ''
-locked: false
